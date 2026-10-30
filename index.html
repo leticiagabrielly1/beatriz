@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta
     name="description"
     content="Portfólio de Beatriz Cavalcanti, estudante de Informática no Mediotec Senac."
   >
+
   <meta name="theme-color" content="#922d3c">
 
   <title>Beatriz Cavalcanti — Portfólio</title>
 
-  <link rel="icon" href="avatar.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="icon" href="img/avatar.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -62,6 +64,8 @@
   </header>
 
   <main id="principal">
+
+    <!-- INÍCIO -->
     <section id="inicio" class="hero container">
       <div class="hero-copy">
         <p class="eyebrow">
@@ -97,7 +101,7 @@
         <span class="orbit" aria-hidden="true"></span>
 
         <img
-          src="beatriz-cavalcanti.jpeg"
+          src="img/beatriz-cavalcanti.jpeg"
           alt="Foto de Beatriz Cavalcanti"
           width="745"
           height="1280"
@@ -122,6 +126,7 @@
       NOVAS POSSIBILIDADES <span>✳</span>
     </div>
 
+    <!-- SOBRE -->
     <section id="sobre" class="container section about">
       <div>
         <p class="eyebrow">01 / SOBRE MIM</p>
@@ -135,11 +140,10 @@
         </p>
 
         <p>
-          Este portfólio reúne o meu percurso de aprendizagem
-          e os projetos desenvolvidos durante o curso.
-          Cada trabalho é uma oportunidade de colocar
-          conhecimentos em prática e descobrir novas
-          possibilidades na tecnologia.
+          Este portfólio reúne o meu percurso de aprendizagem,
+          projetos do curso e projetos de estudo. Cada trabalho
+          é uma oportunidade de colocar conhecimentos em prática
+          e descobrir novas possibilidades na tecnologia.
         </p>
 
         <p>
@@ -162,6 +166,7 @@
       </div>
     </section>
 
+    <!-- HABILIDADES -->
     <section id="habilidades" class="skills-section">
       <div class="container section">
         <p class="eyebrow">02 / HABILIDADES</p>
@@ -180,57 +185,73 @@
             <span class="skill-icon" aria-hidden="true">
               &lt;/&gt;
             </span>
+
             <h3>HTML</h3>
+
             <p>
               Estrutura semântica, conteúdo organizado
               e acessibilidade.
             </p>
+
             <span class="tag">Aplicado neste site</span>
           </article>
 
           <article>
             <span class="skill-icon" aria-hidden="true">{ }</span>
+
             <h3>CSS</h3>
+
             <p>
               Estilos, layouts com Flexbox e Grid
               e adaptação às telas.
             </p>
+
             <span class="tag">Aplicado neste site</span>
           </article>
 
           <article>
             <span class="skill-icon" aria-hidden="true">JS</span>
+
             <h3>JavaScript</h3>
+
             <p>
               Interações, mudança de tema
               e navegação dinâmica.
             </p>
+
             <span class="tag">Aplicado neste site</span>
           </article>
 
           <article>
             <span class="skill-icon" aria-hidden="true">Py</span>
+
             <h3>Python</h3>
+
             <p>
               Lógica de programação, desenvolvimento
               de sistemas e automação.
             </p>
+
             <span class="tag">No meu aprendizado</span>
           </article>
 
           <article>
             <span class="skill-icon" aria-hidden="true">SQL</span>
+
             <h3>SQL</h3>
+
             <p>
               Consultas, organização e manipulação de
               informações em bancos de dados.
             </p>
+
             <span class="tag">No meu aprendizado</span>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- PROJETOS -->
     <section id="projetos" class="container section">
       <p class="eyebrow">03 / PROJETOS</p>
 
@@ -238,199 +259,235 @@
         <h2>Da ideia<br><em>à prática.</em></h2>
 
         <p>
-          Cinco espaços para os meus projetos.<br>
-          Os detalhes serão adicionados em breve.
+          Cinco projetos, diferentes possibilidades.<br>
+          Conheça as ideias e suas aplicações.
         </p>
       </div>
 
       <div class="projects">
-        <article class="project">
-          <div class="project-art art-1" aria-hidden="true">
-            <span>01</span>
 
-            <div class="window">
-              <div class="dots">● ● ●</div>
-              <div class="mock-line"></div>
-              <div class="mock-line short"></div>
-              <div class="mock-block">&lt; / &gt;</div>
-            </div>
+        <!-- PROJETO 1 -->
+        <article class="project">
+          <div class="project-art project-photo">
+            <a
+              href="img/agenda-print.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ampliar imagem da Agenda de Estudos em nova aba"
+            >
+              <img
+                src="img/agenda-print.png"
+                alt="Tela da Agenda de Estudos"
+                loading="lazy"
+              >
+            </a>
           </div>
 
           <div class="project-info">
-            <span class="eyebrow">PROJETO DO CURSO · 01</span>
-            <h3>Projeto 1</h3>
+            <span class="eyebrow">PROJETO DE ESTUDO · 01</span>
+
+            <h3>Agenda de Estudos</h3>
 
             <p>
-              Espaço reservado para um trabalho real
-              desenvolvido durante o curso.
+              Tarefas com matéria, prazo e prioridade.
+              Busca, filtros, edição e salvamento neste navegador.
             </p>
 
+            <p class="project-tech">HTML · CSS · JavaScript</p>
+
+            <a class="button" href="projetos/agenda/index.html">
+              Abrir projeto ↗
+            </a>
+
             <details>
-              <summary>
-                Informações do projeto <span>↗</span>
-              </summary>
+              <summary>O que este projeto demonstra</summary>
 
               <p>
-                Adicione aqui o nome, o problema resolvido,
-                as tecnologias utilizadas e sua participação.
-                Depois, inclua o link do código ou da demonstração.
+                Manipulação do DOM, eventos e localStorage.
               </p>
             </details>
           </div>
         </article>
 
+        <!-- PROJETO 2 -->
         <article class="project">
-          <div class="project-art art-2" aria-hidden="true">
-            <span>02</span>
-
-            <div class="window">
-              <div class="dots">● ● ●</div>
-              <div class="mock-line"></div>
-              <div class="mock-line short"></div>
-              <div class="mock-block">&lt; / &gt;</div>
-            </div>
+          <div class="project-art project-photo">
+            <a
+              href="img/quiz-print.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ampliar imagem do Quiz de Programação em nova aba"
+            >
+              <img
+                src="img/quiz-print.png"
+                alt="Tela do Quiz de Programação"
+                loading="lazy"
+              >
+            </a>
           </div>
 
           <div class="project-info">
-            <span class="eyebrow">PROJETO DO CURSO · 02</span>
-            <h3>Projeto 2</h3>
+            <span class="eyebrow">PROJETO DE ESTUDO · 02</span>
+
+            <h3>Quiz de Programação</h3>
 
             <p>
-              Espaço reservado para um trabalho real
-              desenvolvido durante o curso.
+              12 perguntas de Python, JavaScript e SQL,
+              com pontuação, explicações e revisão das respostas.
             </p>
 
+            <p class="project-tech">HTML · CSS · JavaScript</p>
+
+            <a class="button" href="projetos/quiz/index.html">
+              Abrir projeto ↗
+            </a>
+
             <details>
-              <summary>
-                Informações do projeto <span>↗</span>
-              </summary>
+              <summary>O que este projeto demonstra</summary>
 
               <p>
-                Adicione aqui o nome, o problema resolvido,
-                as tecnologias utilizadas e sua participação.
-                Depois, inclua o link do código ou da demonstração.
+                Arrays, objetos, condições e controle de estado.
               </p>
             </details>
           </div>
         </article>
 
+        <!-- PROJETO 3 -->
         <article class="project">
-          <div class="project-art art-3" aria-hidden="true">
-            <span>03</span>
-
-            <div class="window">
-              <div class="dots">● ● ●</div>
-              <div class="mock-line"></div>
-              <div class="mock-line short"></div>
-              <div class="mock-block">&lt; / &gt;</div>
-            </div>
+          <div class="project-art project-photo">
+            <a
+              href="img/medias-print.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ampliar imagem da Calculadora de Médias em nova aba"
+            >
+              <img
+                src="img/medias-print.png"
+                alt="Tela da Calculadora de Médias"
+                loading="lazy"
+              >
+            </a>
           </div>
 
           <div class="project-info">
-            <span class="eyebrow">PROJETO DO CURSO · 03</span>
-            <h3>Projeto 3</h3>
+            <span class="eyebrow">PROJETO DE ESTUDO · 03</span>
+
+            <h3>Calculadora de Médias</h3>
 
             <p>
-              Espaço reservado para um trabalho real
-              desenvolvido durante o curso.
+              Média simples ou ponderada e simulação da
+              nota necessária na próxima avaliação.
             </p>
 
+            <p class="project-tech">HTML · CSS · JavaScript</p>
+
+            <a class="button" href="projetos/medias/index.html">
+              Abrir projeto ↗
+            </a>
+
             <details>
-              <summary>
-                Informações do projeto <span>↗</span>
-              </summary>
+              <summary>O que este projeto demonstra</summary>
 
               <p>
-                Adicione aqui o nome, o problema resolvido,
-                as tecnologias utilizadas e sua participação.
-                Depois, inclua o link do código ou da demonstração.
+                Formulários, validação e cálculos com JavaScript.
               </p>
             </details>
           </div>
         </article>
 
+        <!-- PROJETO 4 -->
         <article class="project">
-          <div class="project-art art-4" aria-hidden="true">
-            <span>04</span>
-
-            <div class="window">
-              <div class="dots">● ● ●</div>
-              <div class="mock-line"></div>
-              <div class="mock-line short"></div>
-              <div class="mock-block">&lt; / &gt;</div>
-            </div>
+          <div class="project-art project-photo">
+            <a
+              href="img/croch-print.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ampliar imagem da CROCH Salgadaria em nova aba"
+            >
+              <img
+                src="img/croch-print.png"
+                alt="Página inicial da CROCH Salgadaria"
+                loading="lazy"
+              >
+            </a>
           </div>
 
           <div class="project-info">
             <span class="eyebrow">PROJETO DO CURSO · 04</span>
-            <h3>Projeto 4</h3>
+
+            <h3>CROCH Salgadaria</h3>
 
             <p>
-              Espaço reservado para um trabalho real
-              desenvolvido durante o curso.
+              Site de uma salgadaria com apresentação dos
+              produtos e navegação para cardápio, pedidos
+              e contato. A interface destaca a marca e
+              facilita a consulta às opções de salgados.
             </p>
 
-            <details>
-              <summary>
-                Informações do projeto <span>↗</span>
-              </summary>
+            <p class="project-tech">
+              Interface web · Catálogo de produtos
+            </p>
 
-              <p>
-                Adicione aqui o nome, o problema resolvido,
-                as tecnologias utilizadas e sua participação.
-                Depois, inclua o link do código ou da demonstração.
-              </p>
-            </details>
+            <a
+              class="button"
+              href="img/croch-print.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver imagem do projeto ↗
+            </a>
           </div>
         </article>
 
-        <article class="project">
-          <div class="project-art art-5" aria-hidden="true">
-            <span>05</span>
+        <!-- PROJETO 5 — SEM FOTO -->
+        <article class="project project-donation">
+          <div class="donation-cover">
+            <span class="eyebrow">05 / PYTHON PURO</span>
 
-            <div class="window">
-              <div class="dots">● ● ●</div>
-              <div class="mock-line"></div>
-              <div class="mock-line short"></div>
-              <div class="mock-block">&lt; / &gt;</div>
-            </div>
+            <span class="donation-symbol" aria-hidden="true">
+              &lt; / &gt;
+            </span>
+
+            <strong>Tecnologia para ajudar.</strong>
+
+            <span>Sistema de doações</span>
           </div>
 
           <div class="project-info">
             <span class="eyebrow">PROJETO DO CURSO · 05</span>
-            <h3>Projeto 5</h3>
+
+            <h3>Sistema de Doações</h3>
 
             <p>
-              Espaço reservado para um trabalho real
-              desenvolvido durante o curso.
+              Sistema desenvolvido em Python puro, voltado
+              à organização de doações. O projeto aplica
+              a programação a uma iniciativa de solidariedade,
+              com foco em apoiar o processo de doação.
             </p>
 
-            <details>
-              <summary>
-                Informações do projeto <span>↗</span>
-              </summary>
-
-              <p>
-                Adicione aqui o nome, o problema resolvido,
-                as tecnologias utilizadas e sua participação.
-                Depois, inclua o link do código ou da demonstração.
-              </p>
-            </details>
+            <p class="project-tech">Python puro</p>
           </div>
         </article>
 
         <aside class="project-end">
           <span aria-hidden="true">✳</span>
-          <h3>O próximo capítulo<br>começa com uma ideia.</h3>
+
+          <h3>
+            O próximo capítulo<br>
+            começa com uma ideia.
+          </h3>
+
           <p>Aprendizado em movimento.</p>
         </aside>
       </div>
     </section>
 
+    <!-- CONTATO -->
     <section id="contato" class="contact-section">
       <div class="container section contact">
         <div>
           <p class="eyebrow">04 / CONTATO</p>
+
           <h2>Vamos criar<br><em>uma conexão?</em></h2>
 
           <p>
@@ -466,3 +523,4 @@
   </footer>
 </body>
 </html>
+ 
